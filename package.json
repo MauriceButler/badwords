@@ -1,0 +1,29 @@
+{
+  "name": "badwords",
+  "version": "0.0.1",
+  "description": "A highly consumable list of bad (profanity) english words",
+  "main": "array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MauriceButler/badwords.git"
+  },
+  "keywords": [
+    "bad",
+    "word",
+    "words",
+    "profanity",
+    "filter",
+    "blacklist",
+    "black",
+    "list",
+    "swear"
+  ],
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/badwords/issues"
+  }
+}
