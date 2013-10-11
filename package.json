@@ -1,6 +1,6 @@
 {
   "name": "badwords",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A highly consumable list of bad (profanity) english words",
   "main": "array.js",
   "scripts": {
