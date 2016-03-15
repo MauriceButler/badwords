@@ -1,7 +1,6 @@
-badwords
-========
+# badwords
 
-A highly consumable list of bad (profanity) english words based on the nice short and simple list found in [Google's "what do you love" project](http://www.wdyl.com/) made accessable by [Jamie Wilkinson](https://gist.github.com/jamiew) [here](https://gist.github.com/jamiew/1112488)
+A highly consumable list of bad (profanity) English words based on the nice short and simple list found in [Google's "what do you love" project](http://www.wdyl.com/) made accessible by [Jamie Wilkinson](https://gist.github.com/jamiew) [here](https://gist.github.com/jamiew/1112488)
 
 
 This data has been exposed as
@@ -12,17 +11,22 @@ This data has been exposed as
 depending on what is required for your purposes.
 
 
-Install
-=======
+# Install
 
     npm install badwords
 
-Usage
-=====
+# Usage
 
-    var badwordsArray = require('badwords/array');
+``` javascript
+var badwordsArray = require('badwords/array');
 
-    var badwordsObject = require('badwords/object');
+var badwordsObject = require('badwords/object');
 
-    var badwordsRegExp = require('badwords/regexp');
+var badwordsRegExp = require('badwords/regexp');
+```
 
+#### Note
+
+"Bad words" implementations are frequently prone to the [Scunthorpe problem](https://en.wikipedia.org/wiki/Scunthorpe_problem)
+
+These kind of lists can be used for flagging things, but being used as a basis for outright blocking can cause issues.
